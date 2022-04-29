@@ -1,0 +1,264 @@
+.background{
+    background-color: #efe6df;
+}
+.header{
+    background-color: #dbbfbb;
+    display:flex;   
+}
+
+h1, h2{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 500;
+}
+
+h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    text-align: right;
+    margin-left: 10%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+.menu{
+    background: #5e929f;
+    font-size: 40px;
+}
+
+.menu:hover{
+    background: #525f81;
+}
+
+a{
+    padding-left: 8%;
+    text-decoration: none !important;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 200;
+}
+
+a:hover{
+    color: #a7709f !important;
+}
+
+.home{
+    padding-left: 0% !important;
+    width: 12% !important;
+}
+
+.catalogo{
+    background-image: url(./img/background.png);
+    background-repeat: repeat;
+}
+
+ul li {
+    display: inline;
+    padding-bottom: 10%;
+}
+
+.prod{
+    width: 30%;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+button{
+    background-image: url(./img/icon/pago.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-position-x: right;
+    color: #dbbfbb;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #5e929f;
+}
+
+button:hover{
+    background-color: #dbbfbb;
+    color: #5e929f;
+}
+
+.prod:hover{
+    filter: opacity(10%);
+}
+
+.titleOne{
+    font-size: 40px;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 500;
+    color: #414141;
+}
+    
+.titleOne:hover {
+    color: #5e929f !important;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    table-layout: fixed;
+    margin-top: 5%;
+    margin-bottom: auto;
+    color: #dbbfbb;
+    border: initial;
+  }
+  .tbl-header{
+    background: #5e929f;
+    background: linear-gradient(257deg, #5e929f 0%, #525f81 100%);
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 180%;
+    font-weight: 500;
+    text-align: center;
+   }
+  .tbl-content{
+    background: #525f81;
+    background: linear-gradient(257deg, #525f81 0%, #5e929f 100%);
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    height:300px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+  }
+
+  p{
+    font-family: 'Advent Pro', sans-serif;
+    color: #525f81;
+  }
+
+  /*Viewport*/
+@media (min-width: 1200px) {
+    section {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    section {
+      width: 100%;
+    }
+
+    .prod{
+        width: 30%;
+        padding: 6px;
+        padding-bottom: 15px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    section {
+      width: 100%;
+    }
+
+    .menu{
+        background: #5e929f;
+        font-size: 20px;
+    }
+
+    .prod{
+        width: 45%;
+        padding: 6px;
+        padding-bottom: 15px;
+    }
+
+    .titleOne{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 70%;
+    }
+
+    .tbl-header{
+        font-size: 100%;
+    }
+    
+    .tbl-content{
+        font-size: 90%;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    section {
+      width: 100%;
+    }
+
+    .menu{
+        background: #5e929f;
+        font-size: 20px;
+    }
+
+    .prod{
+        width: 45%;
+        padding: 6px;
+        padding-bottom: 15px;
+    }
+
+    .titleOne{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 70%;
+    }
+
+    .icon{
+        width: 4%;
+    }
+
+    .tbl-header{
+        font-size: 100%;
+    }
+    
+    .tbl-content{
+        font-size: 90%;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    section {
+      width: 100%;
+    }
+
+    .menu{
+        background: #5e929f;
+        font-size: 10px;
+    }
+
+    .prod{
+        width: 45%;
+        padding: 6px;
+        padding-bottom: 15px;
+    }
+
+    .titleOne{
+        font-size: 80%;
+        padding-top: 1%;
+    }
+
+    .icon{
+        width: 4%;
+    }
+
+    h2{
+        font-size: 70%;
+    }
+
+    .tbl-header{
+        font-size: 100%;
+    }
+
+    .tbl-content{
+        font-size: 90%;
+    }
+  }
